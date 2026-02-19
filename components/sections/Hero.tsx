@@ -89,11 +89,12 @@ export function Hero({ page, settings }: HeroProps) {
                     <div className="relative w-full h-full">
                         <div className="absolute top-10 right-0 w-[90%] h-[80%] bg-white rounded-[3rem] shadow-2xl overflow-hidden border-4 border-white transform rotate-2">
                             <Image
-                                src="/assets/hero-friends.jpg"
+                                src="https://placehold.co/600x800/png?text=Gemenskap+hos+SCUF"
                                 alt="Gemenskap hos SCUF"
                                 fill
                                 className="object-cover"
                                 priority
+                                unoptimized
                             />
                         </div>
 

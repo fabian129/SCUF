@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, Users, BookOpen, Tent } from "lucide-react";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import type { HomePage } from "@/lib/queries/homePage";
 
@@ -76,9 +77,13 @@ export function AboutSection({ page }: AboutSectionProps) {
                             className="md:row-span-2 bg-neutral-light rounded-3xl p-8 relative overflow-hidden group min-h-[300px] flex flex-col justify-end"
                         >
                             <div className="absolute inset-0 bg-neutral-200 transition-transform duration-700 group-hover:scale-105">
-                                <div className="w-full h-full flex items-center justify-center text-scuf-dark/20 font-bold text-4xl transform -rotate-12 select-none">
-                                    Gemenskap
-                                </div>
+                                <Image
+                                    src="https://placehold.co/800x600/png?text=Gemenskap"
+                                    alt="Gemenskap"
+                                    fill
+                                    className="object-cover"
+                                    unoptimized
+                                />
                             </div>
                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                             <div className="relative z-10 text-white">
