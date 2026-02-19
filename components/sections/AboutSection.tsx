@@ -78,11 +78,10 @@ export function AboutSection({ page }: AboutSectionProps) {
                         >
                             <div className="absolute inset-0 bg-neutral-200 transition-transform duration-700 group-hover:scale-105">
                                 <Image
-                                    src="https://placehold.co/800x600/png?text=Gemenskap"
+                                    src="/assets/gemenskap-about.jpg"
                                     alt="Gemenskap"
                                     fill
                                     className="object-cover"
-                                    unoptimized
                                 />
                             </div>
                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />

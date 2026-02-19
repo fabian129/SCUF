@@ -20,11 +20,10 @@ export function ContentGrid() {
                     <Link href="/bli-medlem" className="relative group overflow-hidden rounded-[2.5rem] shadow-xl md:row-span-2">
                         <div className="absolute inset-0 bg-neutral-300">
                             <Image
-                                src="https://placehold.co/800x600/png?text=Gemenskap"
+                                src="/assets/gemenskap-grid.jpg"
                                 alt="Gemenskap"
                                 fill
                                 className="object-cover transition-transform duration-700 group-hover:scale-110"
-                                unoptimized
                             />
                             {/* Gradient Overlay */}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
