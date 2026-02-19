@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/common/Header";
-import { Footer } from "@/components/common/Footer";
 
 const lato = Lato({
   weight: ["400", "700"],
@@ -23,9 +21,7 @@ export default function RootLayout({
   return (
     <html lang="sv" className="scroll-smooth">
       <body className={`${lato.variable} antialiased font-lato`}>
-        <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );
